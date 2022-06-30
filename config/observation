@@ -1,0 +1,67 @@
+
+
+
+User
+
+
+
+
+Restrurant
+
+
+(lat, long)
+users -> role -> user | res | admin
+JWT authetication / authorisation
+
+
+
+menus -> Indian, Punjabi, 
+
+
+items -> (menu_id)
+
+
+sign in / sign up
+
+rest
+create menu / edit menu
+create item / edit item
+list orders
+confirm order (update order)
+ready order (update order) -> calculate ETA + Send SMS
+delivery boy assign (update order)
+
+
+Users
+
+menu items
+create order (order items)
+list orders
+detail order
+
+
+
+We can only place items for a single restrurent
+
+
+
+Concern : Not user friendly, Should make the payment without any rest confirmation
+Microservice - coupon, payment, notification, delivery, user flow, rest, 
+
+We can take user's location to calculate exact ETA with help of Google map APIs
+We can add user_addresses to keep multiple addresses.
+Few background jobs to update ETA and status
+Coupon (discount / cashback)
+food type and cuisine can be differnt tables and handled in better way
+I am using resources in routes.rb, this can be handled in better way (depending on what we actually require)
+
+
+
+
+
+
+
+
+
+
+
